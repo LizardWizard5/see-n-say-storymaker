@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: yellow;
+    margin-top: 10%;
+}
+/*General styling of the columns*/
+.buttons section{
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: purple;
+    border-radius: 10px;
+
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+}
+.buttons section > p{
+    margin: 0;
+    margin-top: 10%;
+}
+/*Adding color to each of the columns*/
+.buttons section:nth-of-type(2){
+    background-color: lightblue;
+}
+.buttons section:nth-of-type(3){
+    background-color: greenyellow;
+}
+.buttons section:nth-of-type(4){
+    background-color: orange;
+}
+.buttons section:nth-of-type(5){
+    background-color: pink;
+}
+
+
+.buttons > section > button{
+    margin-left: 35%;
+    padding: 5%;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid 10px;
+    border-radius: 100%;
+    border-color: #f4f4f4;
+    width: fit-content;
+    
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 60px;
+    
+}
+.buttons > section > p{
+    text-align: center;
+    
+}
+
+
+/*Output text styling*/
+
+.outputText > p{
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+    font-size: 75px;
+    margin: 10px;
+    text-align: center;
+}
