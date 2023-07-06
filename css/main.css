@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* Assignment 1 | COMP1073 Client-Side JavaScript */
+html{
+    background-color: yellow;
+}
+
+/*General styling of the columns. Font, colours and positioning*/
 .buttons{
     display: flex;
     justify-content: center;
@@ -7,7 +12,6 @@
     background-color: yellow;
     margin-top: 10%;
 }
-/*General styling of the columns*/
 .buttons section{
     margin: 5px;
     padding: 20px;
@@ -38,7 +42,7 @@
     background-color: pink;
 }
 
-
+/*Styling the columns buttons*/
 .buttons > section > button{
     margin-left: 35%;
     padding: 5%;
@@ -67,4 +71,24 @@
     font-size: 75px;
     margin: 10px;
     text-align: center;
+}
+
+/*Utility buttons*/
+.utility{
+    display: flex;
+    justify-content: center;
+    
+}
+.utility > button{
+    margin: 0px 15px 0px 15px;
+}
+
+.utility > button:nth-of-type(1){
+    background-color: lightblue;
+}
+.utility > button:nth-of-type(2){
+    background-color: greenyellow;
+}
+.utility > button:nth-of-type(3){
+    background-color: orange;
 }
